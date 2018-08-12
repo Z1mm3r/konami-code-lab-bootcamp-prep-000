@@ -13,7 +13,8 @@ const codes = [
 
 function init() 
 {
-  const element = doucment.createElement()
+  const element = doucment.createElement('div');
+  document.body.appendChild(element);
   
-  // your code here
+  
 }
