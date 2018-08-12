@@ -26,7 +26,6 @@ function konamiCodeCheck(e)
   
   if(key === codes[index])
   {
-    
+    index++;
   }
-  
 }
