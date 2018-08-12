@@ -18,8 +18,8 @@ function init()
   const element = document.createElement('div');
   element.innerHTML = ("Marker");
   document.body.appendChild(element);
-  element.addEventListener('keydown',konamiCodeCheck)
-  element.addEventListener('click',test(e){alert("hmm")})
+  element.addEventListener('keydown',konamiCodeCheck);
+  element.addEventListener('click',test(e){alert("hmm")});
 }
 
 function konamiCodeCheck(e)
