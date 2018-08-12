@@ -25,7 +25,7 @@ function konamiCodeCheck(e)
 {
   const key = e.key;
   
-  if(key === codes[index])
+  if(key == codes[index])
   {
     index++;
     
