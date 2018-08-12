@@ -16,5 +16,4 @@ function init()
   const element = doucment.createElement('div');
   document.body.appendChild(element);
   
-  
 }
