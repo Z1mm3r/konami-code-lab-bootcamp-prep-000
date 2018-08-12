@@ -11,9 +11,12 @@ const codes = [
   "a"
 ];
 
+let index = 0;
+
 function init() 
 {
   const element = doucment.createElement('div');
   document.body.appendChild(element);
+  
   
 }
