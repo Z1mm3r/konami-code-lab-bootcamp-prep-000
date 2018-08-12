@@ -17,9 +17,6 @@ function init()
 {
   
   document.body.addEventListener('keydown',konamiCodeCheck);
-  document.body.addEventListener('click',function(event){alert('click')});
-  
-  
 }
 
 function konamiCodeCheck(e)
