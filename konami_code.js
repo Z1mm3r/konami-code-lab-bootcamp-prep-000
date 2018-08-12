@@ -13,7 +13,7 @@ const codes = [
 
 function init() 
 {
-  
+  const element = doucment.createElement()
   
   // your code here
 }
