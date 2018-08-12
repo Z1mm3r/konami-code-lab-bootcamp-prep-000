@@ -15,11 +15,10 @@ let index = 0;
 
 function init() 
 {
-  const element = document.createElement('div');
-  element.innerHTML = ("Marker");
-  element.addEventListener('keydown',konamiCodeCheck);
-  element.addEventListener('click',function(event){alert('click')});
-  document.body.appendChild(element);
+  
+  document.body.addEventListener('keydown',konamiCodeCheck);
+  document.body.addEventListener('click',function(event){alert('click')});
+  
   
 }
 
