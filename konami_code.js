@@ -27,5 +27,11 @@ function konamiCodeCheck(e)
   if(key === codes[index])
   {
     index++;
+    
+    if(index === codes.length)
+    {
+      alert("Congrats!");
+    }
+    
   }
 }
