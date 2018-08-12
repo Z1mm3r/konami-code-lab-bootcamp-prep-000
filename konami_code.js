@@ -32,6 +32,12 @@ function konamiCodeCheck(e)
     {
       alert("Congrats!");
     }
-    
   }
+  
+  else
+  {
+    index = 0;
+  }
+  
+  
 }
