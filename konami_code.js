@@ -22,5 +22,11 @@ function init()
 
 function konamiCodeCheck(e)
 {
+  const key = e.key;
+  
+  if(key === codes[index])
+  {
+    
+  }
   
 }
