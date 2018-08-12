@@ -15,7 +15,7 @@ let index = 0;
 
 function init() 
 {
-  const element = doucment.createElement('div');
+  const element = document.createElement('div');
   document.body.appendChild(element);
   element.addEventListener('keydown',konamiCodeCheck(e))
 }
