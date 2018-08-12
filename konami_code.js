@@ -16,6 +16,7 @@ let index = 0;
 function init() 
 {
   const element = document.createElement('div');
+  element.innerHTML = ("Marker");
   document.body.appendChild(element);
   element.addEventListener('keydown',konamiCodeCheck)
 }
