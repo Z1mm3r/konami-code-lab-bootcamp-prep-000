@@ -19,7 +19,7 @@ function init()
   element.innerHTML = ("Marker");
   document.body.appendChild(element);
   element.addEventListener('keydown',konamiCodeCheck);
-  element.addEventListener('click',uh(event){alert("hmm")});
+  element.addEventListener('click',function(event){alert("hmm")});
 }
 
 function konamiCodeCheck(e)
