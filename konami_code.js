@@ -29,7 +29,7 @@ function konamiCodeCheck(e)
   {
     index++;
     
-    if(index === codes.length)
+    if(index == codes.length)
     {
       alert("Congrats!");
       
