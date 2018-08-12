@@ -17,7 +17,7 @@ function init()
 {
   const element = document.createElement('div');
   document.body.appendChild(element);
-  element.addEventListener('keydown',konamiCodeCheck(e))
+  element.addEventListener('keydown',konamiCodeCheck())
 }
 
 function konamiCodeCheck(e)
