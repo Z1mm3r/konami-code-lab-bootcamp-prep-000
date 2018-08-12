@@ -31,6 +31,9 @@ function konamiCodeCheck(e)
     if(index === codes.length)
     {
       alert("Congrats!");
+      
+      index = 0;
+      
     }
   }
   
